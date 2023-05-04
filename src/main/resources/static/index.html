@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="test">
+<head>
+    <meta charset="UTF-8">
+    <title>Consuming Place API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div ng-controller="place">
+        <p>The status is {{out.status}}</p>
+        <p>The name is {{out.result.name}}</p>
+    </div>
+</body>
+</html>
